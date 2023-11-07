@@ -118,7 +118,7 @@
 		},
 		{
             "name": "autoenroll",
-            "pip": "git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@unconditional-autoenroll#egg=openimis-be-autoenroll_py"
+            "pip": "git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@unconditional-autoenroll#egg=openimis-be-autoenroll"
         }
 	]
 }
