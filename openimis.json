@@ -2,7 +2,7 @@
 	"modules": [
 		{
 			"name": "core",
-			"pip": "git+https://github.com/openimis/openimis-be-core_py.git@hotfix/cannot_pickle_celery#egg=openimis-be-core"
+			"pip": "git+https://github.com/BLSQ/openimis-be-core_py.git@impl/spimm#egg=openimis-be-core"
 		},
 		{
 			"name": "report",
@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "location",
-			"pip": "git+https://github.com/openimis/openimis-be-location_py.git@main#egg=openimis-be-location"
+			"pip": "git+https://github.com/BLSQ/openimis-be-location_py.git@impl/spimm#egg=openimis-be-location"
 		},
 		{
 			"name": "medical",
@@ -18,7 +18,7 @@
 		},
 		{
 			"name": "medical_pricelist",
-			"pip": "git+https://github.com/openimis/openimis-be-medical_pricelist_py.git@main#egg=openimis-be-medical_pricelist"
+			"pip": "git+https://github.com/BLSQ/openimis-be-medical_pricelist_py.git@impl/spimm#egg=openimis-be-medical_pricelist"
 		},
 		{
 			"name": "product",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "insuree",
-			"pip": "git+https://github.com/openimis/openimis-be-insuree_py.git@main#egg=openimis-be-insuree"
+			"pip": "git+https://github.com/BLSQ/openimis-be-insuree_py.git@impl/spimm#egg=openimis-be-insuree"
 		},
 		{
 			"name": "policy",
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "claim",
-			"pip": "git+https://github.com/openimis/openimis-be-claim_py.git@main#egg=openimis-be-claim"
+			"pip": "git+https://github.com/BLSQ/openimis-be-claim_py.git@impl/spimm#egg=openimis-be-claim"
 		},
 		{
 			"name": "claim_batch",
@@ -115,7 +115,11 @@
 		{
 			"name":"dhis2_etl",
 			"pip":"git+https://github.com/openimis/openimis-be-dhis2_etl_py.git@main#egg=openimis-be-dhis2_etl"
-		}
+		},
+		{
+            "name": "autoenroll",
+            "pip": "git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@unconditional-autoenroll#egg=openimis-be-autoenroll_py"
+        }
 	]
 }
 
