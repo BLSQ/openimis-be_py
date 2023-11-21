@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "insuree",
-			"pip": "git+https://github.com/openimis/openimis-be-insuree_py.git@release/23.04_with_fixes#egg=openimis-be-insuree"
+			"pip": "git+https://github.com/BLSQ/openimis-be-insuree_py.git@impl/gambia#egg=openimis-be-insuree"
 		},
 		{
 			"name": "policy",
@@ -46,7 +46,7 @@
 		},
 		{
 			"name": "claim",
-			"pip": "git+https://github.com/openimis/openimis-be-claim_py.git@release/23.04_with_fixes#egg=openimis-be-claim"
+			"pip": "git+https://github.com/BLSQ/openimis-be-claim_py.git@impl/gambia#egg=openimis-be-claim"
 		},
 		{
 			"name": "claim_batch",
@@ -109,8 +109,16 @@
 			"pip":"git+https://github.com/openimis/openimis-be-calcrule_unconditional_cash_payment_py.git@release/23.04_with_fixes#egg=openimis-be-calcrule_unconditional_cash_payment"
 		},
 		{
-			"name":"dhis2_etl",
-			"pip":"git+https://github.com/openimis/openimis-be-dhis2_etl_py.git@release/23.04_with_fixes#egg=openimis-be-dhis2_etl"
+			"name":"controls",
+			"pip":"git+https://github.com/BLSQ/openimis-be-controls_py.git@impl/gambia#egg=openimis-be-controls"
+		},
+		{
+			"name":"grievance",
+			"pip":"git+https://github.com/BLSQ/openimis-be-grievance_py.git@impl/gambia#egg=openimis_be_grievance"
+		},
+		{
+			"name":"autoenroll",
+			"pip":"git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@main#egg=openimis-be-autoenroll"
 		}
 	]
 }
