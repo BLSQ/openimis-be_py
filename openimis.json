@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "controls",
-			"pip": "git+https://github.com/openimis/openimis-be-controls.git@develop#egg=openimis-be-controls"
+			"pip": "git+https://github.com/openimis/openimis-be-controls_py.git@develop#egg=openimis-be-controls"
 		},
 		{
 			"name": "calcrule_social_protection",
