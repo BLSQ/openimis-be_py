@@ -141,6 +141,18 @@
 			"pip": "git+https://github.com/openimis/openimis-be-payment_cycle_py.git@develop#egg=openimis-be-payment_cycle"
 		},
 		{
+			"name": "insuree_batch",
+			"pip": "git+https://github.com/openimis/openimis-be-insuree_batch.git@develop#egg=openimis-be-insuree_batch"
+		},
+		{
+			"name": "controls",
+			"pip": "git+https://github.com/openimis/openimis-be-controls.git@develop#egg=openimis-be-controls"
+		},
+		{
+			"name": "calcrule_social_protection",
+			"pip": "git+https://github.com/openimis/openimis-be-calcrule_social_protection_py.git@develop#egg=openimis-be-calcrule_social_protection"
+		},
+		{
 			"name": "calcrule_social_protection",
 			"pip": "git+https://github.com/openimis/openimis-be-calcrule_social_protection_py.git@develop#egg=openimis-be-calcrule_social_protection"
 		},
