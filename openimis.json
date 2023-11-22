@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "insuree_batch",
-			"pip": "git+https://github.com/openimis/openimis-be-insuree_batch.git@develop#egg=openimis-be-insuree_batch"
+			"pip": "git+https://github.com/openimis/openimis-be-insuree_batch_py.git@develop#egg=openimis-be-insuree_batch"
 		},
 		{
 			"name": "controls",
