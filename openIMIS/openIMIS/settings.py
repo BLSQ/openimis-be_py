@@ -261,8 +261,8 @@ GRAPHENE = {
 GRAPHQL_JWT = {
     "JWT_VERIFY_EXPIRATION": True,
     "JWT_LONG_RUNNING_REFRESH_TOKEN": True,
-    "JWT_EXPIRATION_DELTA": timedelta(minutes=15),
-    "JWT_REFRESH_EXPIRATION_DELTA": timedelta(minutes=60),
+    "JWT_EXPIRATION_DELTA": timedelta(minutes=5),
+    "JWT_REFRESH_EXPIRATION_DELTA": timedelta(minutes=15),
     "JWT_AUTH_HEADER_PREFIX": "Bearer",
     "JWT_ENCODE_HANDLER": "core.jwt.jwt_encode_user_key",
     "JWT_DECODE_HANDLER": "core.jwt.jwt_decode_user_key",
