@@ -474,3 +474,29 @@ FRONTEND_URL = os.environ.get("FRONTEND_URL", "")
 
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# 2M Corp Yankuba's eCRVS settings
+HERA_CLIENT_SECRET = os.environ.get("HERA_CLIENT_SECRET", None)
+HERA_TOKEN_URL = os.environ.get("HERA_TOKEN_URL", None)
+HERA_SUBSCRIBE_URL = os.environ.get("HERA_SUBSCRIBE_URL", None)
+HERA_GENERAL_URL = os.environ.get("HERA_GENERAL_URL", None)
+HERA_QUERY_STR = {
+    "attributeNames": [
+        "firstName",
+        "lastName",
+        "dob",
+        "placeOfBirth",
+        "certificateNumber",
+        "height",
+        "weight",
+        "residentialAlley",
+        "isLocal",
+        "occupation",
+        "residentialHouseNumber",
+        "fatherName",
+        "residentialVillage",
+        "motherName",
+        "residentialDistrict",
+        "residentialProvince",
+    ]
+}
