@@ -14,7 +14,7 @@
 		},
 		{
 			"name": "medical",
-			"pip": "git+https://github.com/openimis/openimis-be-medical_py.git@release/23.04_with_fixes#egg=openimis-be-medical"
+			"pip": "git+https://github.com/BLSQ/openimis-be-medical_py.git@impl/gambia#egg=openimis-be-medical"
 		},
 		{
 			"name": "medical_pricelist",
