@@ -54,7 +54,7 @@
 		},
 		{
 			"name": "tools",
-			"pip": "git+https://github.com/openimis/openimis-be-tools_py.git@release/23.04_with_fixes#egg=openimis-be-tools"
+			"pip": "git+https://github.com/BLSQ/openimis-be-tools_py.git@impl/spimm#egg=openimis-be-tools"
 		},
 		{
 			"name": "api_fhir_r4",
