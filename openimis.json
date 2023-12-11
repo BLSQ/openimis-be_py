@@ -62,7 +62,7 @@
 		},
 		{
 			"name": "claim_batch",
-			"pip": "git+https://github.com/openimis/openimis-be-claim_batch_py.git@release/23.04_with_fixes#egg=openimis-be-claim_batch"
+			"pip": "git+https://github.com/openimis/openimis-be-claim_batch_py.git@refactor/migrate_procs#egg=openimis-be-claim_batch"
 		},
 		{
 			"name": "tools",
