@@ -30,7 +30,7 @@
 		},
 		{
 			"name": "policy",
-			"pip": "git+https://github.com/openimis/openimis-be-policy_py.git@release/23.04_with_fixes#egg=openimis-be-policy"
+			"pip": "git+https://github.com/BLSQ/openimis-be-policy_py.git@impl/gambia#egg=openimis-be-policy"
 		},
 		{
 			"name": "contribution",
