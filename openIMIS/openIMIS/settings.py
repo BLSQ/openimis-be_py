@@ -500,3 +500,37 @@ HERA_QUERY_STR = {
         "residentialProvince",
     ]
 }
+HERA_INSUREE_FIELDS_TO_FETCH = [
+    "firstName",
+    "lastName",
+    "gender",
+    "dob",
+    "emailId",  # TBA
+    "mobileNumber",
+    "isLocal",
+    "occupation",
+    "residentialProvince",
+    "residentialDistrict",
+    "residentialVillage",
+    "residentialAlley",
+    "residentialHouseNumber",
+    "registrationProvince",
+    "registrationDistrict",
+    "registrationVillage",
+    "birthProvince",
+    "birthDistrict",
+    "birthVillage",
+    "healthFacility",
+    "placeOfBirthType",
+    "fatherFirstName",
+    "fatherLastName",
+    "motherFirstName",
+    "motherLastName",
+    # "certificateNumber",  # No longer available (but still is in the documentation)
+    "height",
+    "weight",
+    # "contactPerson",  # TBA ?
+    # "nameOfContact",  # TBA ?
+    # "facialPicture",  # TBA ?
+]
+

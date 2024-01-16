@@ -117,6 +117,10 @@
 			"pip":"git+https://github.com/BLSQ/openimis-be-grievance_py.git@impl/gambia#egg=openimis_be_grievance"
 		},
 		{
+			"name":"ecrvs",
+			"pip":"git+https://github.com/BLSQ/openimis-be-ecrvs_py.git@impl/gambia#egg=openimis_be_ecrvs"
+		},
+		{
 			"name":"autoenroll",
 			"pip":"git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@main#egg=openimis-be-autoenroll"
 		}
