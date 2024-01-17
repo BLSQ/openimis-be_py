@@ -531,6 +531,6 @@ HERA_INSUREE_FIELDS_TO_FETCH = [
     "weight",
     # "contactPerson",  # TBA ?
     # "nameOfContact",  # TBA ?
-    # "facialPicture",  # TBA ?
+    "facialImageFileName",
 ]
 
