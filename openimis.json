@@ -119,6 +119,10 @@
 		{
 			"name": "mobile",
 			"pip": "git+https://github.com/BLSQ/openimis-be-mobile_py.git@main#egg=openimis-be-mobile"
+		},
+		{
+			"name": "autoenroll",
+			"pip": "git+https://github.com/BLSQ/openimis-be-autoenroll_py.git@main#egg=openimis-be-autoenroll"
 		}
 	]
 }
