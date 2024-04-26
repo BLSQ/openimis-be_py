@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "contribution",
-			"pip": "git+https://github.com/openimis/openimis-be-contribution_py.git@release/23.04_with_fixes#egg=openimis-be-contribution"
+			"pip": "git+https://github.com/BLSQ/openimis-be-contribution_py.git@impl/gambia#egg=openimis-be-contribution"
 		},
 		{
 			"name": "payer",
