@@ -78,7 +78,7 @@
 		},
 		{
 			"name": "invoice",
-			"pip": "git+https://github.com/openimis/openimis-be-invoice_py.git@release/23.04_with_fixes#egg=openimis-be-invoice"
+			"pip": "git+https://github.com/BLSQ/openimis-be-invoice_py.git@impl/gambia#egg=openimis-be-invoice"
 		},
 		{
 		    "name": "calcrule_contribution_legacy",
