@@ -40,8 +40,8 @@ LOGGING = {
             "level": LOGGING_LEVEL,
             "class": "logging.handlers.RotatingFileHandler",
             "filename": os.environ.get("DEBUG_LOG_FILE", "debug.log"),
-            "maxBytes": 1024 * 1024 * 5,  # 5 MB
-            "backupCount": 3,
+            "maxBytes": 1024 * 1024 * 15,  # 15 MB
+            "backupCount": 50,
             "formatter": "standard",
         },
         "console": {"class": "logging.StreamHandler", "formatter": "short"},
