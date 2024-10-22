@@ -122,7 +122,7 @@
 		},
 		{
 			"name":"qmoney_payment",
-			"pip":"git+https://github.com/BLSQ/openimis-be-qmoney_payment_py.git@impl/gambia#egg=openimis_be_qmoney_payment_py"
+			"pip":"git+https://github.com/BLSQ/openimis-be-qmoney_payment_py.git@impl/gambia#egg=openimis_be_qmoney_payment"
 		},
 		{
 			"name":"autoenroll",
