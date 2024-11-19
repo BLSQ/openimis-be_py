@@ -481,36 +481,45 @@ USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 HERA_INSUREE_FIELDS_TO_FETCH = [
+    # BIOGRAPHIC HERA category
     "firstName",
     "lastName",
-    "gender",
+    "maidenName",
     "dob",
+    "gender",
+    "bloodGroup",
     "emailId",
     "mobileNumber",
+    # DEMOGRAPHIC HERA category
+    "placeOfBirth",
     "isLocal",
     "occupation",
+    "maritalStatus",
+    "residentialVillage",
     "residentialProvince",
     "residentialDistrict",
-    "residentialVillage",
-    "residentialAlley",
-    "residentialHouseNumber",
+    "registrationVillage",
     "registrationProvince",
     "registrationDistrict",
-    "registrationVillage",
+    "birthVillage",
     "birthProvince",
     "birthDistrict",
-    "birthVillage",
-    "healthFacility",
-    "placeOfBirthType",
+    # BIRTH HERA category
+    "height",
+    "weight",
     "fatherFirstName",
     "fatherLastName",
     "motherFirstName",
     "motherLastName",
-    # "certificateNumber",  # No longer available (but still is in the documentation)
-    "height",
-    "weight",
-    # "contactPerson",  # TBA ?
-    # "nameOfContact",  # TBA ?
     "facialImageFileName",
+    "relationshipType",
+    "contactName",
+    "placeOfBirthType",
+    "healthFacility",
+    "birthRefNumber",
+
+    # Other fields
+    # "residentialAlley",  # Seems no longer available
+    # "residentialHouseNumber",  # Seems no longer available
 ]
 
